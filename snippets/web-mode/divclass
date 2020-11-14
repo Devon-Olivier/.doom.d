@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: <div class="..."> ... </div>
+# uuid:
+# key: div.
+# condition: t
+# --
+<div class="$1">$2</div>$0

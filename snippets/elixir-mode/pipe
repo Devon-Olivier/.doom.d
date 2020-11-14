@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: pipe
+# uuid:
+# key: p
+# condition: t
+# --
+|> $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: <%= email_input ... %>
+# uuid:
+# key: emailf
+# condition: t
+# --
+<%= email_input ${1:f}, :${2:field} %>

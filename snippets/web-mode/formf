@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: <%= form_for ... %>
+# key: formf
+# condition: t
+# --
+<%= form_for ${1:@changeset}, ${2:action},$3 fn ${4:f} -> %>
+  $5
+<% end %>

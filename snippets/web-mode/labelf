@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: <%= label ... %>
+# key: labelf
+# condition: t
+# --
+<%= label ${1:f}, :${2:field}, "${3:label}" %>

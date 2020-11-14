@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: <%= text_inputf ... %>
+# key: textf
+# condition: t
+# --
+<%= text_input ${1:f}, :${2:field}, placeholder: "${3:placeholder}" %>$0
